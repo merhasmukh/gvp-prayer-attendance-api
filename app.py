@@ -7,11 +7,11 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS if frontend is hosted separately
 
 # Constants
-PRAYER_LAT = 23.123456  # Replace with actual latitude of prayer area
-PRAYER_LONG = 72.123456  # Replace with actual longitude
-ALLOWED_RADIUS = 0.0005  # Roughly 50 meters
-TIME_START = time(10, 25)
-TIME_END = time(10, 35)
+PRAYER_LAT = 23.110917   # Replace with actual latitude of prayer area
+PRAYER_LONG = 72.526056 # Replace with actual longitude
+ALLOWED_RADIUS = 0.0015  # Roughly 50 meters
+TIME_START = time(10, 15)
+TIME_END = time(23, 35)
 
 # SQLite setup
 def init_db():
